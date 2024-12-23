@@ -22,5 +22,5 @@ type PostResponse struct {
 
 // GET response with Receipt ID
 type GetResponse struct {
-	Points int `json:"points"`
+	Points int64 `json:"points"`
 }

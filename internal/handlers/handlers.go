@@ -12,7 +12,7 @@ import (
 )
 
 // In Memory Storage
-var receiptPoints = make(map[string]int)
+var receiptPoints = make(map[string]int64)
 
 // POST
 func PostReceiptHandler(writer http.ResponseWriter, request *http.Request) {
