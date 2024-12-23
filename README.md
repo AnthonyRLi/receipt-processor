@@ -1,14 +1,20 @@
 # receipt-processor
+<br>
 
-Language : Go
-
-To Use:
+**Language : Go**
+<br>
+<br>
+**To Use:**
+<br>
 
 1. Assuming you have Go installed, once you have git pulled, run: go mod tidy
 
+
 2. From receipt-processor folder, run: go run cmd/server/main.go
 
+
 3. Will open on Port 3000
+
 
 4. Using Postman:
 
@@ -65,5 +71,7 @@ To Use:
 
 
 
-Thanks!
+<br>
+<br>
+Thanks!<br>
 Anthony
