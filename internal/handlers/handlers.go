@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"receipt-processor/internal/models"
+	"receipt-processor/internal/services"
 
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
@@ -27,7 +28,8 @@ func PostReceiptHandler(writer http.ResponseWriter, request *http.Request) {
 	id := uuid.New().String()
 
 	// Calculate receipt points
-	var points int = 100
+	points := 0
+	points += services.CalculatePoints(receipt)
 
 	// Store receipt points
 	// Could do error handling in case there is somehow a UUID overlap
