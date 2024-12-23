@@ -19,3 +19,8 @@ type Item struct {
 type PostResponse struct {
 	ID string `json:"id"`
 }
+
+// GET response with Receipt ID
+type GetResponse struct {
+	Points int `json:"points"`
+}
