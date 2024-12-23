@@ -28,8 +28,7 @@ func PostReceiptHandler(writer http.ResponseWriter, request *http.Request) {
 	id := uuid.New().String()
 
 	// Calculate receipt points
-	points := 0
-	points += services.CalculatePoints(receipt)
+	points := services.CalculatePoints(receipt)
 
 	// Store receipt points
 	// Could do error handling in case there is somehow a UUID overlap
