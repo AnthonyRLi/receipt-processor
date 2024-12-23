@@ -12,9 +12,13 @@ To Use:
 
 4. Using Postman:
 
-    POST Route: http://localhost:3000/receipts/process
+    POST Route: 
+    
+        http://localhost:3000/receipts/process
 
-    GET Route: http://localhost:3000/receipts/{id}/points
+    GET Route: 
+    
+        http://localhost:3000/receipts/{id}/points
 
 
 5. Using curl on a terminal:
