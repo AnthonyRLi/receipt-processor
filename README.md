@@ -14,7 +14,7 @@ To Use:
 
     POST Route: http://localhost:3000/receipts/process
 
-    GET Route: http://localhost:3000/receipts/68b651c9-5047-4f44-889e-3eaa004ec4bb/points
+    GET Route: http://localhost:3000/receipts/{id}/points
 
 
 5. Using curl on a terminal:
